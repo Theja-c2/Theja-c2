@@ -1,0 +1,32 @@
+#include<stdio.h>
+ void main()
+ {
+  char operater;
+  int a,b,;
+  printf("enter two num,operater");
+
+  scanf("%d%d%c",&a,&b,&operater);
+  switch(operater)
+  {
+  case'+':
+
+          printf("%d",a+b);
+          break;
+  case'-':
+
+          printf("%d",a-b);
+          break;
+  case'*':
+          printf("%d",a*b);
+          break;
+  case'/':
+         printf("%d",a/b);
+         break;
+  case'%':
+          printf("%d",a%b);
+          break;
+  default:
+         printf("nothing done");
+  }
+ }
+                                                                                                                                        
