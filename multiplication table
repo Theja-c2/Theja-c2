@@ -1,0 +1,13 @@
+include<stdio.h>
+ void main()
+ {
+  int n,term,i;
+  printf("enter a number");
+  scanf("%d",&n);
+  printf("enter no of term");
+  scanf("%d",&term);
+  for(i=1;i<=term;i++)
+  {
+   printf("\n%d*%d=%d\n",n,i,n*i);
+  }
+ }
